@@ -1,4 +1,4 @@
-import React from "./node_modules/react";
+import React from "react";
 import "./Home.css";
 
 export default function Home() {
@@ -6,7 +6,7 @@ export default function Home() {
         <div className="Home">
             <div className="lander">
                 <h1>Home</h1>
-                <p>Welcome to Hisher Bookstore</p>
+                <p>Welcome to Fisher Bookstore</p>
             </div>
         </div>
     );
