@@ -5,11 +5,11 @@ import "./Book.css";
 export default class Book extends Component {
     render() {
         return (
-            <dic className="Books">
+            <div className="Books">
                 <div className="lander">
                     <BookDisplay book={this.state.book} />
                 </div>
-            </dic>
+            </div>
         );
     }
     constructor(props) {

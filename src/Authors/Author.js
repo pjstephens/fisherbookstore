@@ -6,11 +6,11 @@ import "./Author.css";
 export default class Author extends Component {
     render() {
         return (
-            <dic className="Authors">
+            <div className="Authors">
                 <div className="lander">
                     <AuthorDisplay author={this.state.author} />
                 </div>
-            </dic>
+            </div>
         );
     }
     constructor(props) {
